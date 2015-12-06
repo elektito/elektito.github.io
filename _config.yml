@@ -18,7 +18,5 @@ author:
   url:               https://twitter.com/elektito
   email:             mostafa@sepent.com
 
-# Custom vars
-version:             1.0.0
-
+# gems
 gems:                [jekyll-paginate]
