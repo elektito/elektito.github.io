@@ -30,7 +30,8 @@ index 6ff12b5..9f5c087 100644
 @@ -527,6 +534,8 @@ python-font-lock-keywords
            ;; fontified like that in order to keep font-lock consistent between
            ;; Python versions.
-           "nonlocal"
+-          "nonlocal"
++          "nonlocal" "await"
 +          ;; Python 3.5+ PEP492
 +          (and "async" (+ space) (or "def" "for" "with"))
            ;; Extra:
