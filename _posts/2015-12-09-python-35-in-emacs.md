@@ -3,6 +3,9 @@ layout: page
 title: Python 3.5 in Emacs
 ---
 
+> April 2016 Update: Native support for Python 3.5 has finally landed
+> in Emacs development branch. You don't need this patch anymore.
+
 Native co-routine support in Python 3.5 is really cool. So cool in
 fact that it finally made me switch from Python 2. I never was a big
 fan of Python 3, but that's another story. The point is I'm finally
