@@ -17,4 +17,4 @@ author:
 
 # gems
 gems:                [jekyll-paginate, pygments.rb]
-highlighter:         pygments
+highlighter:         rouge
