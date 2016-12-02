@@ -8,52 +8,38 @@ some nuanced, I decided to list the instructions here.
 
 1. Install build dependencies:
 
-    {% highlight shell %}
-    sudo apt-get install linux-libc-dev golang gcc
-    {% endhighlight %}
+        sudo apt-get install linux-libc-dev golang gcc
 
 2. Make Go directories:
 
-    {% highlight shell %}
-    mkdir -p ~/go/src
-    cd ~/go/src
-    export GOPATH=~/go
-    {% endhighlight %}
+        mkdir -p ~/go/src
+        cd ~/go/src
+        export GOPATH=~/go
 
 3. Clone flannel:
 
-    {% highlight shell %}
-    git clone https://github.com/coreos/flannel.git
-    {% endhighlight %}
+        git clone https://github.com/coreos/flannel.git
 
 4. Install Go dependencies:
 
-    {% highlight shell %}
-    cd flannel
-    go install
-    {% endhighlight %}
+        cd flannel
+        go install
 
 5. Since I wanted a statically linked binary, I edited the Makefile
    and updated the build instruction like this:
 
-    {% highlight make %}
-    dist/flanneld: $(shell find . -type f  -name '*.go')
-        go build -o dist/flanneld \
-          -ldflags '-extldflags "-static" -X github.com/coreos/flannel/version.Version=$(TAG)'
-    {% endhighlight %}
+        dist/flanneld: $(shell find . -type f  -name '*.go')
+            go build -o dist/flanneld \
+               -ldflags '-extldflags "-static" -X github.com/coreos/flannel/version.Version=$(TAG)'
 
 6. Now build the binary:
 
-    {% highlight shell %}
-    make dist/flanneld
-    {% endhighlight %}
+        make dist/flanneld
 
 7. `flanneld` binary should now be created in the dist directory. You
    can strip it to make it smaller:
 
-    {% highlight shell %}
-    strip dist/flanneld
-    {% endhighlight %}
+        strip dist/flanneld
 
 One other problem I encountered was that you need at least 2GB of RAM
 for this. I was trying this in a VM with 1GB and I ran out of memory.
