@@ -16,5 +16,5 @@ author:
   email:             mostafa@sepent.com
 
 # gems
-gems:                [jekyll-paginate, pygments.rb]
+gems:                [jekyll-paginate]
 highlighter:         rouge
