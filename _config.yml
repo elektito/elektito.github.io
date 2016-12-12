@@ -3,8 +3,8 @@ permalink:           pretty
 
 # Setup
 title:               elektito
-tagline:             'my personal website'
-description:         'This is my personal website and blog.'
+tagline:             'programming & stuff'
+description:         'A blog for sharing my (mostly) programming related stuff.'
 url:                 http://elektito.github.io
 baseurl:             ''
 paginate:            5
