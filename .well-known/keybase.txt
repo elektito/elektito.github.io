@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/elektito
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://elektito.com
+  * I am elektito (https://keybase.io/elektito) on keybase.
+  * I have a public key with fingerprint 0ADB 94A1 F4BB D6B2 790D  3DDF D5FE 8296 D2FE E4B1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f4d81e0a229174b85daa8cd379008bdb3449148a37221a934863a9debbd238d60a",
+            "fingerprint": "0adb94a1f4bbd6b2790d3ddfd5fe8296d2fee4b1",
+            "host": "keybase.io",
+            "key_id": "d5fe8296d2fee4b1",
+            "kid": "0101f4d81e0a229174b85daa8cd379008bdb3449148a37221a934863a9debbd238d60a",
+            "uid": "563174789fe67439ce5f7ad1c45c0f19",
+            "username": "elektito"
+        },
+        "service": {
+            "hostname": "elektito.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1482241072,
+    "expire_in": 157680000,
+    "prev": "b453e126f1216cf353b2dba2a12fb8af669d166f4353f6d64d678c8dfee54b6f",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMIhAnicrZJbSBVBGMePVqaWJBJeskgXyh5E9jq7ex6U7GJlKiXdwDrM7Mzqop49
+7tnjJbNICEvpImVgQooYSWhWQpqmmRXVkUB7CelJFASRLg+BdDvNSr1Ej83LMN/3
+///m+z6+5zErXNFh9ZtbB4z7C01hE0+vB1xHj4lsLYNMXMO4a5lSsnyRMkz8tqfU
+wIybYTmW00WscISFPK9ysogUCUOoaFiQVZZVEEaCKKqcqEBB5nkOqoKoAAGqmCCE
+eUHBgIVMOqMb3mJi+SzDaztYiJEqQoqmIoB4isICxjqWdKLwKsC8ToiIOGosMf2O
+gxaHoJ9kGCaN0Ydnubx/6P9z3YFlnAQEipAVVSdAFgVVI5IuQ8xpoqSxOqc6Qj+x
+vLCcUDUpI6W2YZtMXTpDo5WGRpzBOp38pcjQzHLq9VmmbWpmGc2U2LbP7RjtGp+j
+rCLI85vhQYYX0zFSQyWx/IbpZdwcVWq24UBpKzwvcqzMpzOk2mdYxGM4CkkGCkuP
+8w2ppEgkSgLheKBzPAc0XZAExGMEecjxOlKgDoCKOQB0kWZ0gIGIgaxoCqYjlkQE
+dMbpqsJrMm6VlgmLKdJvFHuhHbAIUzc+VrTSFRbtilgV7qyXKzoq9s/S7SmNdF3r
+LPTFd4c2PJromA2B/JtFJdvHhs7uu2AUdivZS5mXtsUPfB+MmLFTrLjmsoNyX651
+/ERqKGl1+/SRt3eC81Ntn/27v3RsaTwzH3s3mDM81JE/9yCvNzEy8/Kb9K6M1JdX
++19XF3zdyCQ2jrSYa3KnYk4GGTwb6k47VZlbH5yqyEsLR4+bzk+CuNHJD+NVavBw
+YCnmwKaW7JRv5f33ksE7qVWdGx380ZllL5YXfopvuRhqb7itpDWStQ1pVVlK9vqs
+n8OxQIiLChT0vH+SEdZU0LIQitoxuLe5OfN0UtuVmXO1yZ7FnTlb1yXs+njjUMJI
+0sOe6b7J/bdSe190PXv1C5lmPkQ=
+=eyn+
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/elektito
+
+==================================================================
