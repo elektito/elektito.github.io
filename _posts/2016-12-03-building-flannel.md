@@ -4,7 +4,7 @@ title: Building a static flanneld binary on Ubuntu
 ---
 
 I just spent some time trying to build `flannel` and since there were
-some nuanced, I decided to list the instructions here.
+some nuances, I decided to list the instructions here.
 
 1. Install build dependencies:
 
