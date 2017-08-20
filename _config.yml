@@ -15,8 +15,8 @@ author:
   url:               https://twitter.com/elektito
   email:             mostafa@sepent.com
 
-# gems
-gems:                [jekyll-paginate]
+# plugins
+plugins:             [jekyll-paginate]
 highlighter:         rouge
 
 # includes
