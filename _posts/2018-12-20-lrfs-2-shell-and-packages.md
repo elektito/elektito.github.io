@@ -28,12 +28,14 @@ that sub-directory, we'll have a file named `pkg.json` which describes
 the package, and a `Makefile` that contains build and installation
 instructions. The `pkg.json` file will look something like this:
 
-    {
-        "version": "1.0.0",
-        "source": {
-            "type": "local"
-        }
+```json
+{
+    "version": "1.0.0",
+    "source": {
+        "type": "local"
     }
+}
+```
 
 This tells the build script what the current package version number
 and how to obtain the source code (local in this case, since the code
