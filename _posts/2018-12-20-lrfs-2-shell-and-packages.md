@@ -57,12 +57,14 @@ point in time. In order to do so, we'll simply describe the build
 environment for all packages in the root of the `pkgs`
 directory. We'll use a `build.json` file like this:
 
-    {
-        "env": {
-            "name": "ubuntu",
-            "version": "18.04"
-        }
+```json
+{
+    "env": {
+        "name": "ubuntu",
+        "version": "18.04"
     }
+}
+```
 
 Given that there are generally no breaking changes in development
 tools in a single version of Ubuntu, this should work for now.
