@@ -221,11 +221,11 @@ of the package file (the one built by the `build` script) to the image
 file we created before. After that, run the VM like this:
 
     qemu-system-x86_64 -kernel /path/to/bzImage \
-                       -append "root=/dev/sda init=/bin/bash console=ttyS0" \
-                       -hda /path/to/image.img \
-                       -enable-kvm \
-                       -nographic \
-                       -serial mon:stdio
+                  -append "root=/dev/sda init=/bin/bash console=ttyS0" \
+                  -hda /path/to/image.img \
+                  -enable-kvm \
+                  -nographic \
+                  -serial mon:stdio
 
 Note the init parameter passed to the kernel. Here, we are telling the
 kernel to use `bash` as the init program.
