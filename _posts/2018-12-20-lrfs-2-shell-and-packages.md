@@ -216,6 +216,20 @@ points to explain:
    communicated to the sub-makes (like the `-j` argument, so that the
    right number of parallel jobs are used).
 
+In order to actually run the built shell, you need to add the contents
+of the package file (the one built by the `build` script) to the image
+file we created before. After that, run the VM like this:
+
+    qemu-system-x86_64 -kernel /path/to/bzImage \
+                       -append "root=/dev/sda init=/bin/bash console=ttyS0" \
+                       -hda /path/to/image.img \
+                       -enable-kvm \
+                       -nographic \
+                       -serial mon:stdio
+
+Note the init parameter passed to the kernel. Here, we are telling the
+kernel to use `bash` as the init program.
+
 ## The source
 
 Everything I've talked about in this article can be found in this
