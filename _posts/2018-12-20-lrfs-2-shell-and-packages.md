@@ -3,6 +3,9 @@ layout: page
 title: "LRFS Part 2: Adding a shell and packages"
 ---
 
+_This is part of a series of articles. You can find the first part
+[here][4]._
+
 In this [first part][1] of this series we built a kernel and ran it
 with a very minimal (and useless) init program. That's not very
 useful. Let's add a shell.
@@ -240,3 +243,4 @@ Everything I've talked about in this article can be found in this
 [1]: /2018/12/15/linux-really-from-scratch
 [2]: https://ftp.gnu.org/gnu/bash/
 [3]: https://github.com/elektito/lrfs
+[4]: /2018/12/15/linux-really-from-scratch/

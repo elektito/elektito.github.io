@@ -3,6 +3,9 @@ layout: page
 title: "LRFS Part 4: Early Userspace: initrd and initramfs"
 ---
 
+_This is part of a series of articles. You can find the first part
+[here][3]._
+
 Although [init][1] is considered the beginning of the Linux userspace,
 this is not technically the case. There are other facilities that are
 part of the userspace and run even before init. Using these is not
@@ -292,3 +295,4 @@ initramfs in our distro-to-be. So we'll just carry on.
 
 [1]: /2018/12/21/lrfs-3-init/
 [2]: https://github.com/libguestfs/supermin
+[3]: /2018/12/15/linux-really-from-scratch/
