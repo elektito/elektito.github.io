@@ -235,10 +235,8 @@ kernel to use `bash` as the init program.
 ## The source
 
 Everything I've talked about in this article can be found in this
-[repository][3] on Github. Why electus as the repo name? Well, I can't
-do anything without a name, and I felt like calling this "electus" at
-the moment!
+[repository][3] on Github.
 
 [1]: /2018/12/15/linux-really-from-scratch
 [2]: https://ftp.gnu.org/gnu/bash/
-[3]: https://github.com/elektito/electus
+[3]: https://github.com/elektito/lrfs
