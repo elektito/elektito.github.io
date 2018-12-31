@@ -146,4 +146,3 @@ repeatability and build automation, but since the article was getting
 too long, I'll leave those for another article. Stay tuned.
 
 [1]: http://www.linuxfromscratch.org/
-[2]: https://github.com/elektito/electus.git
