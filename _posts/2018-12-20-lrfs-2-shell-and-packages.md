@@ -118,10 +118,10 @@ The script needs a number of tools to run:
  - `lsb_release`: For getting information about the build environment.
  - `fakeroot`: Runs another program in an environment with fake root
    privilege for file manipulation. This is needed because sometimes
-   install scripts need to do change a file's group, something that
-   only root can do, but we do not want our build system to run as
-   root, hence we use fakeroot for creating the package. Extracting
-   the packages, however, will obviously need root permissions.
+   install scripts need to change a file's group, something that only
+   root can do, but we do not want our build system to run as root,
+   hence we use fakeroot for creating the package. Extracting the
+   packages, however, will obviously need root permissions.
 
 In order to build the `hello` package, for example, go the `tools`
 directory and run `./build hello`. When the script is done running,

@@ -21,7 +21,7 @@ that this might be necessary:
  - Mounting the root file system might need access to kernel modules
    that are not built into the kernel, but are instead built as kernel
    modules and reside on the very file system we are going to
-   mount. It is, of course, possible to built these into the kernel,
+   mount. It is, of course, possible to build these into the kernel,
    but we might want to keep the kernel from becoming too large. This
    was especially the case before, when RAM used to be more limited
    than it is now.
@@ -169,8 +169,8 @@ as `/sbin/init`.
 
 ## initramfs
 
-Originally, initramfs is supposed to be a an archive embedded into the
-Linux kernel itself. This archive is mounted as root and a `/init`
+Originally, initramfs was supposed to be a an archive embedded into
+the Linux kernel itself. This archive is mounted as root and a `/init`
 file inside it is executed as init (i.e. with PID 1).
 
 What this incarnation of early init does is slightly different from
